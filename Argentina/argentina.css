@@ -1,0 +1,33 @@
+html, body{
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0;
+}
+.container {
+    display: grid;
+    grid-template-rows: 200px; 
+    background-color: #00b3db;
+  }
+  
+  .container1 {
+        display: grid;
+        grid-template-rows: 200px;
+        background-color: #ecf9fc;
+  } 
+  .container2 {
+    display: grid;
+    grid-template-rows:200px;
+    background-color: #00b3db;
+  } 
+  img{ 
+    height: 150px;
+    width: 150px;
+  }
+  .foto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   }
+ 

@@ -1,0 +1,28 @@
+html, body{
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0;
+}
+.chile{
+    display: grid;
+    grid-template-columns: 400px 1000px;
+    grid-template-rows: 400px 400px;
+}
+.item1{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.item2{
+    background-color: rgb(220, 220, 220);
+}
+.item3{
+    background-color: red;
+}
+img{
+    width: 200px;
+    height: 200px;
+}

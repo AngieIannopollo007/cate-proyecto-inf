@@ -1,0 +1,15 @@
+html, body{
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0;
+}
+.Belgica{
+    display: grid;
+    grid-template-columns: 550px 550px 550px;
+    grid-template-rows: 700px 700px 700px;
+    gap: 0;
+}
+.item{ background-color: black;}
+.item1{ background-color: yellow; }
+.item2 { background-color: red; }
