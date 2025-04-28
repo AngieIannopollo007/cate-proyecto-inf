@@ -1,0 +1,88 @@
+html, body{
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0;
+}
+.grecia{
+    display: grid;
+    position: relative;
+}
+
+.grecia1, .grecia2{
+    grid-column: 1 / -1;
+    grid-row: 1/-1;
+}
+
+.grecia1{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1580px;
+    grid-template-rows: 75px 75px 75px 75px 75px 75px 75px 75px 75px;
+    gap: 0;
+    z-index: 1;
+}
+.item1{
+    background-color: blue;
+}
+.item2{
+    background-color: whitesmoke;
+}
+.item3{
+    background-color: blue;
+}
+.item4{
+    background-color: whitesmoke;
+}
+.item5{
+    background-color: blue;
+}
+.item6{
+    background-color: whitesmoke;
+}
+.item7{
+    background-color: blue;
+}
+.item8{
+    background-color: whitesmoke;
+}
+.item9{
+    background-color: blue;
+}
+
+
+.grecia2{
+    display: grid;
+    grid-template-columns: 250px 50px 250px;
+    grid-template-rows: 150px 75px 150px;
+    gap: 0;
+    z-index: 2;
+}
+
+.i1{
+    background-color: blue;
+}
+.i2{
+    background-color: whitesmoke;
+}
+.i3{
+    background-color: blue;
+}
+.i4{
+    background-color: whitesmoke;
+}
+.i5{
+    background-color: whitesmoke;
+}
+.i6{
+    background-color: whitesmoke;
+}
+.i7{
+    background-color: blue;
+}
+.i8{
+    background-color: whitesmoke;
+}
+.i9{
+    background-color: blue;
+}
